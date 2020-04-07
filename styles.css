@@ -1,0 +1,27 @@
+.make {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(https://bit.ly/2XmD9ns);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 20vw;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: right;
+}
