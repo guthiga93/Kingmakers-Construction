@@ -1,27 +1,19 @@
-.make {
+.heading{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-image: url(https://bit.ly/2XmD9ns);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-li{
-    list-style-type: none;
-    margin: 0 2vw;
-    font-size: 3vh;
-}
-a{
-    text-decoration: none;
+    top: 5px;
+    text-align: center;
+    margin: 40px auto;
 }
 nav{
-    width: 20vw;
+    float: right;
 }
-ul{
+nav>ul {
     margin: 0;
     padding: 0;
-    display: flex;
-    text-align: right;
+    list-style: none;
+}
+nav>ul>li {
+    display: inline-block;
+    padding-top: 5px;
+    margin-left: 20px;
 }
