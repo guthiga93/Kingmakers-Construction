@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KINGMAKERS CONSTRUCTION COMPANY.INC</title>
+    <title>KINGMAKERS CONSTRUCTION COMPANY .INC</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="make">
-           <img src="https://bit.ly/2XmD9ns" alt="img" height=" 100%" width=" 100%">
-        <h1 class="heading">KINGMAKERS CONSTRUCTION COMPANY.INC</h1>
-        <P id="overlay">Affordability meets Practicability</P>
-      <div id="bar">
+      <div class="navbar">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -20,7 +17,13 @@
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
+      </div>
+      <div class="second">
+        <h1>KINGMAKERS CONSTRUCTION COMPANY . INC</h1>
       </div> 
+      <div class="box">
+        <P id="overlay">Affordability meets Practicability</P>
+      </div>
     </div>
     <div id="about">
         <h2>ABOUT US</h2>
@@ -29,6 +32,8 @@
         </p>
     </div>
     <div class="services">
+        <img class="floatleft" src="https://bit.ly/3aWudt8"/> 
+        <column>
         <h2>SERVICES</h2>
         <p>From conception to completion, together with our team of professionals we provide you with:</p>
         <ul>
@@ -39,19 +44,55 @@
             <li>Material supplies.</li>
             <li>Property management.</li>
         </ul>
+        </column>
     </div>
     <div id="brief">
+        <section> 
         <h2>DESIGN</h2>
-        <p>Here we conceptulize the design concept and all the requirements the client specified.
+        <p>
+           Here we conceptulize the design concept and all the requirements the client specified.
            We produce the designs of the structure both in 2D and 3D ready for the approval processes. 
         </p>
+        </section>
+        <aside>
         <h2>CONSTRUCTION METHOD</h2>
         <p>The modules are assembled in a factory together with all installations needed and will be transported to
            the site ready to be assembled together. The factory condition allows for a greater control and improvement
            in the safety and quality of the materials. </p>
+        </aside>
+        <side>
         <h2>SMART LIVING</h2>
         <p>We use modern materials and technology inorder to  archieve an environment friendly and green-energy saving
            structure. </p>
+        </side>
+    </div>
+    <div class="contacts">
+        <h2>CONTACT US</h2>
+        <form action="results.html" method="GET"> 
+    
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."> 
+    
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last name..">
+    
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="emailaddress" placeholder="Your email..">
+    
+            <label for="tel">Telephone</label>
+            <input type="text" id="tel" name="telephone" placeholder="Your telephone">
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Write subject..">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height: 100px;"></textarea>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="footer">
+        &copy;Kingmakersconstruction.com | Tel: +254 705152770 
     </div>
 </body>
 </html>
