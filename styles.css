@@ -1,4 +1,7 @@
-.make{
+*{
+    overflow-x: hidden;
+}
+#home{
     background-image: url("https://bit.ly/2XmD9ns");
     height: 100vh;
     width: 100%;
@@ -19,9 +22,7 @@ h1{
     color: white;
 }
 #about{
-    text-align: center;
-    padding-left: 10%;
-    max-width: 1500px;
+    padding: 20px;
 }
 .navbar{
     width: 100%;
@@ -73,11 +74,15 @@ p{
 p ul{
     text-align: center;
 }
-.services{
+#services{
     display: flex;
+    padding: 5px;
 }
 column{
     padding-left: 30px;
+}
+#brief{
+    padding: 5px;
 }
 section,aside,side{
     float: left;
@@ -87,10 +92,10 @@ section,aside,side{
     background-color: #f2f2f2;
     
  }
- .contacts{
+ #contacts{
     clear: both;
     margin: auto;
-    border: 10px solid grey;
+    border: 5px solid grey;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -122,7 +127,7 @@ input[type=submit]:hover {
 .footer{
     background: #343a40;
     color: #fffafa;
-    height: 50px;
+    height: 30px;
     width: 100%;
     text-align: center;
     position: absolute;
