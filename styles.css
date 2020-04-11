@@ -16,6 +16,12 @@ h1{
     align-items: center;
     text-align: center;
     font-size: 40px;
+    color: white;
+}
+#about{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 1500px;
 }
 .navbar{
     width: 100%;
@@ -23,6 +29,7 @@ h1{
     margin-top: 20px;
     transition: .5s;
     text-align: right;
+    overflow: auto;
 }
 .navbar ul li a{
     text-decoration: none;
@@ -46,10 +53,9 @@ ul li{
     margin-left: 20px;
 }
 .box{
-    position: absolute;
     margin: auto;
-    padding: 50px;
-    background: rgba(255,255,255,.2);
+    padding: 20px;
+    background: rgba(15, 15, 15, 0.2);
     font-size: 35px;
     width: max-content;
     object-position: 50% 50%;
@@ -69,7 +75,9 @@ p ul{
 }
 .services{
     display: flex;
-    margin: 20px;
+}
+column{
+    padding-left: 30px;
 }
 section,aside,side{
     float: left;
